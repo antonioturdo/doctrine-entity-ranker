@@ -1,0 +1,25 @@
+{
+  "name": "antonioturdo/doctrine-entity-ranker",
+  "description": "",
+  "type": "library",
+  "keywords": [
+    "doctrine",
+    "orm",
+    "livingdocumentation"
+  ],
+  "require": {
+    "php": "^8.0",
+    "doctrine/orm": "^2.0"
+  },
+  "require-dev": {
+    "nikic/php-parser": "^4.17"
+  },
+  "autoload": {
+    "psr-4": {
+      "AntonioTurdo\\DoctrineEntityRanker\\": "src/"
+    }
+  },
+  "suggest": {
+    "nikic/php-parser": "Needed to use UsageScoreCalculator"
+  }
+}
